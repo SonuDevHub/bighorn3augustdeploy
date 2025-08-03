@@ -6742,9 +6742,9 @@ h6 {
     /* Slightly smaller radius on mobile */
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 700px) {
   .tours-one__item {
-    height: 120vw;
+    height: 110vw;
     width: 98%;
     border-radius: 16px;
   }
