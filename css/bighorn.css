@@ -6744,7 +6744,7 @@ h6 {
 }
 @media (max-width: 480px) {
   .tours-one__item {
-    height: 100vw;
+    height: 120vw;
     width: 98%;
     border-radius: 16px;
   }
