@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About || Big Horn</title>
+	<!-- favicons Icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="images/big-horn-favicon-removebg.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/big-horn-favicon-removebg.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/big-horn-favicon-removebg.png">
+	<link rel="manifest" href="assets/images/favicons/site.webmanifest">
+
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Geologica:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/jarallax.css">
+	<link rel="stylesheet" href="css/jquery.magnific-popup.css">
+	<link rel="stylesheet" href="css/daterangepicker.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_1.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- template styles -->
+	<link rel="stylesheet" href="css/bighorn.css">
+	<style>
+		.masonry {
+			column-count: 1;
+			column-gap: 1.5rem;
+		}
+
+		@media (min-width: 768px) {
+			.masonry {
+				column-count: 2;
+			}
+		}
+
+		@media (min-width: 992px) {
+			.masonry {
+				column-count: 3;
+			}
+		}
+
+		.testimonial-card {
+			background: #F1F4FA;
+			display: inline-block;
+			margin: 0 0 1.5rem;
+			padding: 1.5rem;
+			border-radius: 0.75rem;
+			box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+		}
+
+		.testimonial-card p {
+			font-size: 0.95rem;
+		}
+
+		.quote-icon {
+			font-size: 2rem;
+			color: #6c757d;
+			line-height: 1;
+		}
+
+		.user-info {
+			display: flex;
+			align-items: center;
+			margin-top: 1rem;
+		}
+
+		.user-info img {
+			border-radius: 50%;
+			width: 36px;
+			height: 36px;
+			margin-right: 0.75rem;
+		}
+
+		.testimonial-date {
+			font-size: 0.8rem;
+			color: #999;
+			text-align: right;
+		}
+
+
+		/* for clickable gallery  */
+
+		.lightbox-overlay {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(15, 15, 15, 0.9);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 9999;
+			display: none;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.lightbox-overlay img {
+			max-width: 90%;
+			max-height: 80vh;
+			border-radius: 10px;
+			margin-bottom: 10px;
+		}
+
+		.lightbox-title {
+			color: #fff;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+
+		.lightbox-download {
+			background: #fff;
+			padding: 8px 15px;
+			border-radius: 5px;
+			color: #000;
+			text-decoration: none;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.lightbox-close {
+			color: #fff;
+			font-size: 24px;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+
+		/* for clickable gallery  */
+	</style>
+</head>
+
+<body class="custom-cursor">
+
+
+	<!-- Preloader Icon -->
+
+	<!-- Preloader Icon -->
+	<div class="page-wrapper">
+
+		<header class="main-header main-header--two sticky-header sticky-header--normal ">
+			<div class="container-fluid">
+				<div class="main-header__inner">
+					<div class="main-header__logo">
+						<a href="index.html">
+							<img src="assets/logo.png" alt="Big Horn Logo" width="165">
+						</a>
+					</div>
+					<nav class="main-header__nav main-menu">
+						<ul class="main-menu__list">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li class="dropdown">
+								<a href="#">Treks</a>
+								<ul class="sub-menu">
+									<li class="dropdown">
+										<a href="#">Upcoming Treks</a>
+										<ul class="sub-menu">
+											<li><a href="hampta-pass-trek.html">Hampta Pass Trek</a></li>
+											<li><a href="valley-of-flower.html">Valley Of Flower</a></li>
+											<li><a href="bhirgu-lake-trek.html">bhirgu lake trek</a></li>
+											<li><a href="beas-kund.html">Beas Kund Trek</a></li>
+											<li><a href="har-ki-kund.html">Har Ki Dun</a></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="tour.html">All Treks</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+
+							<li>
+								<a href="sustainability.html">Sustainability</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="main-header__right">
+						<div class="main-header__btn">
+							<a href="contact.html" class=""
+								style="background-color: #FF6600; color: white; padding: 12px 18px; border-radius: 5px; text-decoration: none;">
+								<span>Contact Us</span>
+							</a>
+						</div>
+
+						<div class="mobile-nav__btn mobile-nav__toggler">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="page-header">
+			<div class="page-header__bg"></div><!-- /.page-header__bg -->
+		</section><!-- /.page-header -->
+
+		<section class="why-choose-one why-choose-one--about">
+			<div class="container">
+				<div class="row d-flex align-items-center">
+					<div class="col-xl-6 wow fadeInUp" data-wow-delay="300ms">
+						<div class="why-choose-one__image">
+							<img src="images/why-choose-one-1.jpg" alt="bighorn">
+						</div>
+					</div>
+					<div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms">
+						<div class="why-choose-one__content">
+							<div class="sec-title">
+								<h3 class="sec-title__title bw-split-in-left">Why Choose Us</h3>
+								<p class="sec-title__text bw-split-in-up-fast">
+									content of a page when looking at layout the point<br> of using lorem the is Ipsum
+									less
+								</p>
+							</div>
+							<div class="why-choose-one__box">
+								<div class="why-choose-one__box__icon"><i class="flaticon-suitcase"></i></div>
+								<h5 class="why-choose-one__box__title">Personalized Trips</h5>
+								<p class="why-choose-one__box__text">Content of a page when looking at<br> layout the
+									point of using lorem the<br> is Ipsum less normal</p>
+							</div><!-- why-choose-one__box -->
+							<div class="why-choose-one__box">
+								<div class="why-choose-one__box__icon"><i class="flaticon-signpost"></i></div>
+								<h5 class="why-choose-one__box__title">Trusted Travel Guide</h5>
+								<p class="why-choose-one__box__text">Content of a page when looking at<br> layout the
+									point of using lorem the<br> is Ipsum less normal</p>
+							</div><!-- why-choose-one__box -->
+							<div class="why-choose-one__btn">
+								<a href="contact.html" class="bighorn-btn">
+									<span>Start Booking</span>
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- why-choose-one -->
+
+		<!-- gallery two start -->
+
+
+		<!-- iopen image on fullscreen -->
+		<div class="lightbox-overlay" id="lightbox">
+			<div class="lightbox-title" id="lightboxTitle"></div>
+			<img id="lightboxImage" src="" alt="">
+			<a id="lightboxDownload" class="lightbox-download" href="" download>Download</a>
+			<div class="lightbox-close" onclick="closeLightbox()">✖ Close</div>
+		</div>
+
+		<!-- iopen image on fullscreen -->
+		<section class="gallery-one">
+			<div class="container">
+				<div class="sec-title text-center">
+					<h3 class="sec-title__title bw-split-in-left">Recent Gallery</h3>
+					<p class="sec-title__text bw-split-in-up-fast">
+						content of a page when looking at layout the point<br> of using lorem the is Ipsum less
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="gallery-one__card">
+							<a href="images/treks/Hampta1.jpg" data-title="Hampta1.jpg" class="gallery-link">
+								<img src="images/treks/Hampta1.jpg" height="400rem" alt="Hampta1.jpg">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-2">
+						<div class="gallery-one__card">
+							<a href="images/treks/flower3.jpg" data-title="flower3.jpg" class="gallery-link">
+								<img src="images/treks/flower3.jpg" height="185rem" alt="flower3.jpg">
+							</a>
+						</div>
+						<div class="gallery-one__card">
+							<a href="images/treks/beas-kund.jpeg" data-title="beas-kund.jpeg" class="gallery-link">
+								<img src="images/treks/beas-kund.jpeg" height="189rem" alt="beas-kund.jpeg">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="gallery-one__card">
+							<a href="images/treks/lake5.jpg" data-title="lake5.jpg" class="gallery-link">
+								<img src="images/treks/lake5.jpg" height="400rem" alt="lake5.jpg">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-2">
+						<div class="gallery-one__card">
+							<a href="images/treks/lake3.jpg" data-title="lake3.jpg" class="gallery-link">
+								<img src="images/treks/lake3.jpg" height="185rem" alt="lake3.jpg">
+							</a>
+						</div>
+						<div class="gallery-one__card">
+							<a href="images/treks/har-ki-kund.jpeg" data-title="har-ki-kund.jpeg" class="gallery-link">
+								<img src="images/treks/har-ki-kund.jpeg" height="189rem" alt="har-ki-kund.jpeg">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="gallery-one__card">
+							<a href="images/treks/flower5.jpg" data-title="flower5.jpg" class="gallery-link">
+								<img src="images/treks/flower5.jpg" height="400rem" alt="flower5.jpg">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="gallery-one__card">
+							<a href="images/treks/Hampta2.jpg" data-title="Hampta2.jpg" class="gallery-link">
+								<img src="images/treks/Hampta2.jpg" height="185rem" alt="Hampta2.jpg">
+							</a>
+						</div>
+						<div class="gallery-one__card">
+							<a href="images/treks/hampta-pass-trek.jpeg" data-title="hampta-pass-trek.jpeg"
+								class="gallery-link">
+								<img src="images/treks/hampta-pass-trek.jpeg" height="189rem"
+									alt="hampta-pass-trek.jpeg">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-2">
+						<div class="gallery-one__card">
+							<a href="images/treks/flower6.jpg" data-title="flower6.jpg" class="gallery-link">
+								<img src="images/treks/flower6.jpg" height="400rem" alt="flower6.jpg">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="gallery-one__card">
+							<a href="images/treks/Valley-of-flower.jpeg" data-title="Valley-of-flower.jpeg"
+								class="gallery-link">
+								<img src="images/treks/Valley-of-flower.jpeg" height="400rem"
+									alt="Valley-of-flower.jpeg">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="gallery-one__card">
+							<a href="images/treks/lake2.jpg" data-title="lake2.jpg" class="gallery-link">
+								<img src="images/treks/lake2.jpg" height="400rem" alt="lake2.jpg">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- gallery-one -->
+
+		<section class="py-5 bg-white">
+			<div class="container">
+				<section class="text-center py-5 bg-white">
+					<div class="container">
+						<!-- Main Heading -->
+						<h2 class="display-5 mb-3" style="color: #000;font-weight: 800;">Rated as Excellent by over
+							1,000
+							travellers</h2>
+
+						<!-- Stars and Rating -->
+						<div class="mb-2">
+							<span style="color: #000; font-size: 1.25rem;">
+								★ ★ ★ ★ ★
+							</span>
+							<strong class="ms-2 fs-5">4.8/5</strong>
+							<span class="text-muted">(1,016 reviews)</span>
+						</div>
+
+						<!-- Trustpilot Text -->
+						<p class=" mb-0">
+							Rated as Excellent on
+							<a href="#" class="text-decoration-underline text-dark">Trustpilot</a>
+						</p>
+					</div>
+				</section>
+				<div class="masonry">
+					<!-- Testimonial 1 -->
+					<div class="testimonial-card">
+						<div class="testimonial-date">4 Dec 2024</div>
+						<div class="quote-icon mb-4"><svg xmlns:xlink="http://www.w3.org/1999/xlink"
+								class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1agfzxb" focusable="false"
+								aria-hidden="true" viewBox="0 0 23 17" width="23" height="17" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path id="â"
+									d="M17.8161 17C14.7176 17 12.215 14.3286 12.215 10.3214C12.215 6.07143 15.1943 1.51786 20.0803 0H22.1658C18.4715 2.00357 17.399 5.28214 17.399 6.98214C17.5181 7.16429 17.399 6.92143 17.399 6.92143C20.7358 6.73929 23 9.04643 23 12.0214C22.9404 14.8143 20.6166 17 17.8161 17ZM5.60104 17C2.50259 17 0 14.3286 0 10.3214C0 6.07143 2.97927 1.51786 7.86529 0H9.95078C6.25648 2.00357 5.18394 5.28214 5.18394 6.98214C5.30311 7.16429 5.18394 6.92143 5.18394 6.92143C8.52073 6.73929 10.785 9.04643 10.785 12.0214C10.7254 14.8143 8.40156 17 5.60104 17Z"
+									fill="#202020"></path>
+							</svg></div>
+						<!-- <h5 class="fw-bold">A transformative adventure</h5> -->
+						<p>Brahmatal was my first trek ever, and I went from “Can
+							I do this?” to “I never want to come down”, all thanks to Bighorn! They didn’t just
+							guide us, they vibed with us. Somewhere between sore legs, tough terrains, and
+							mid-oxygen crises, I found the most dramatic new friends, loud laughter, epic
+							stargazing, breathtaking mountain views, and the world’s most competitive UNO games
+							right at the top of the mountain. Bighorn isn’t just about treks, it’s about stories
+							you’ll keep telling. You’ll laugh, you’ll climb, you’ll maybe cry a little but
+							you’ll love every second.</p>
+						<div class="user-info">
+							<img src="images/gallery-1-1.jpg" alt="Prema">
+							<div>
+								<strong>Deeksha Prakash</strong><br>
+								<small class="text-muted">Lucknow</small>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 2 -->
+					<div class="testimonial-card">
+						<div class="testimonial-date">1 Dec 2024</div>
+						<div class="quote-icon mb-4"><svg xmlns:xlink="http://www.w3.org/1999/xlink"
+								class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1agfzxb" focusable="false"
+								aria-hidden="true" viewBox="0 0 23 17" width="23" height="17" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path id="â"
+									d="M17.8161 17C14.7176 17 12.215 14.3286 12.215 10.3214C12.215 6.07143 15.1943 1.51786 20.0803 0H22.1658C18.4715 2.00357 17.399 5.28214 17.399 6.98214C17.5181 7.16429 17.399 6.92143 17.399 6.92143C20.7358 6.73929 23 9.04643 23 12.0214C22.9404 14.8143 20.6166 17 17.8161 17ZM5.60104 17C2.50259 17 0 14.3286 0 10.3214C0 6.07143 2.97927 1.51786 7.86529 0H9.95078C6.25648 2.00357 5.18394 5.28214 5.18394 6.98214C5.30311 7.16429 5.18394 6.92143 5.18394 6.92143C8.52073 6.73929 10.785 9.04643 10.785 12.0214C10.7254 14.8143 8.40156 17 5.60104 17Z"
+									fill="#202020"></path>
+							</svg></div>
+						<!-- <h5 class="fw-bold">Flash Pack have nailed group dynamic</h5> -->
+						<p>"The cleanups and plogging activities organized during
+							the trek were hectic but fun. It was amazing to see everyone come together to keep
+							the trails clean. The slogans, that I still remember helped spread the message of
+							environmental conservation to other trekkers. I can’t wait to go again. It was my
+							first trek experience, and
+							TOE made it super cool."</p>
+						<div class="user-info">
+							<img src="images/gallery-1-1.jpg" alt="Andrea">
+							<div>
+								<strong>Sunny Singh</strong><br>
+								<small class="text-muted">Delhi </small>
+							</div>
+						</div>
+					</div>
+
+					<!-- Testimonial 3 -->
+					<div class="testimonial-card">
+						<div class="testimonial-date">4 Dec 2024</div>
+						<div class="quote-icon mb-4"><svg xmlns:xlink="http://www.w3.org/1999/xlink"
+								class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1agfzxb" focusable="false"
+								aria-hidden="true" viewBox="0 0 23 17" width="23" height="17" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path id="â"
+									d="M17.8161 17C14.7176 17 12.215 14.3286 12.215 10.3214C12.215 6.07143 15.1943 1.51786 20.0803 0H22.1658C18.4715 2.00357 17.399 5.28214 17.399 6.98214C17.5181 7.16429 17.399 6.92143 17.399 6.92143C20.7358 6.73929 23 9.04643 23 12.0214C22.9404 14.8143 20.6166 17 17.8161 17ZM5.60104 17C2.50259 17 0 14.3286 0 10.3214C0 6.07143 2.97927 1.51786 7.86529 0H9.95078C6.25648 2.00357 5.18394 5.28214 5.18394 6.98214C5.30311 7.16429 5.18394 6.92143 5.18394 6.92143C8.52073 6.73929 10.785 9.04643 10.785 12.0214C10.7254 14.8143 8.40156 17 5.60104 17Z"
+									fill="#202020"></path>
+							</svg></div>
+						<!-- <h5 class="fw-bold">Arrived as strangers, left as friends</h5> -->
+						<p>"Seeing the impact of our actions firsthand was
+							incredibly rewarding. During the treks, we collected litter, avoided plastic, and
+							used sustainable materials, which made a visible difference in the areas and my
+							mind. The trip made me a more conscious traveler. I now continue these practices and
+							spread awareness about the importance of sustainability."</p>
+						<div class="user-info">
+							<img src="images/gallery-1-1.jpg" alt="Nana">
+							<div>
+								<strong>Amit Sharma</strong><br>
+								<small class="text-muted">Lucknow</small>
+							</div>
+						</div>
+					</div>
+
+					<!-- Add more testimonial cards here -->
+					<div class="testimonial-card">
+						<div class="testimonial-date">4 Dec 2024</div>
+						<div class="quote-icon mb-4"><svg xmlns:xlink="http://www.w3.org/1999/xlink"
+								class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1agfzxb" focusable="false"
+								aria-hidden="true" viewBox="0 0 23 17" width="23" height="17" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path id="â"
+									d="M17.8161 17C14.7176 17 12.215 14.3286 12.215 10.3214C12.215 6.07143 15.1943 1.51786 20.0803 0H22.1658C18.4715 2.00357 17.399 5.28214 17.399 6.98214C17.5181 7.16429 17.399 6.92143 17.399 6.92143C20.7358 6.73929 23 9.04643 23 12.0214C22.9404 14.8143 20.6166 17 17.8161 17ZM5.60104 17C2.50259 17 0 14.3286 0 10.3214C0 6.07143 2.97927 1.51786 7.86529 0H9.95078C6.25648 2.00357 5.18394 5.28214 5.18394 6.98214C5.30311 7.16429 5.18394 6.92143 5.18394 6.92143C8.52073 6.73929 10.785 9.04643 10.785 12.0214C10.7254 14.8143 8.40156 17 5.60104 17Z"
+									fill="#202020"></path>
+							</svg></div>
+						<!-- <h5 class="fw-bold">Arrived as strangers, left as friends</h5> -->
+						<p>"I loved the night sky discussions and the sense of
+							community. I saw some satellites and the ISS moving. What an experience. TAP made me
+							realize how small actions can make a big difference in preserving nature."</p>
+						<div class="user-info">
+							<img src="images/gallery-1-1.jpg" alt="Nana">
+							<div>
+								<strong>Tanya</strong><br>
+								<small class="text-muted">Indore</small>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-date">4 Dec 2024</div>
+						<div class="quote-icon mb-4"><svg xmlns:xlink="http://www.w3.org/1999/xlink"
+								class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1agfzxb" focusable="false"
+								aria-hidden="true" viewBox="0 0 23 17" width="23" height="17" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path id="â"
+									d="M17.8161 17C14.7176 17 12.215 14.3286 12.215 10.3214C12.215 6.07143 15.1943 1.51786 20.0803 0H22.1658C18.4715 2.00357 17.399 5.28214 17.399 6.98214C17.5181 7.16429 17.399 6.92143 17.399 6.92143C20.7358 6.73929 23 9.04643 23 12.0214C22.9404 14.8143 20.6166 17 17.8161 17ZM5.60104 17C2.50259 17 0 14.3286 0 10.3214C0 6.07143 2.97927 1.51786 7.86529 0H9.95078C6.25648 2.00357 5.18394 5.28214 5.18394 6.98214C5.30311 7.16429 5.18394 6.92143 5.18394 6.92143C8.52073 6.73929 10.785 9.04643 10.785 12.0214C10.7254 14.8143 8.40156 17 5.60104 17Z"
+									fill="#202020"></path>
+							</svg></div>
+						<p> Brahmatal was my first trek ever, and I went from “Can
+							I do this?” to “I never want to come down”, all thanks to Bighorn! They didn’t just
+							guide us, they vibed with us. Somewhere between sore legs, tough terrains, and
+							mid-oxygen crises, I found the most dramatic new friends, loud laughter, epic
+							stargazing, breathtaking mountain views, and the world’s most competitive UNO games
+							right at the top of the mountain. Bighorn isn’t just about treks, it’s about stories
+							you’ll keep telling. You’ll laugh, you’ll climb, you’ll maybe cry a little but
+							you’ll love every second.</p>
+						<div class="user-info">
+							<img src="images/gallery-1-1.jpg" alt="Nana">
+							<div>
+								<strong>Deeksha Prakash </strong><br>
+								<small class="text-muted">Lucknow</small>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-date">4 Dec 2024</div>
+						<div class="quote-icon mb-4"><svg xmlns:xlink="http://www.w3.org/1999/xlink"
+								class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1agfzxb" focusable="false"
+								aria-hidden="true" viewBox="0 0 23 17" width="23" height="17" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path id="â"
+									d="M17.8161 17C14.7176 17 12.215 14.3286 12.215 10.3214C12.215 6.07143 15.1943 1.51786 20.0803 0H22.1658C18.4715 2.00357 17.399 5.28214 17.399 6.98214C17.5181 7.16429 17.399 6.92143 17.399 6.92143C20.7358 6.73929 23 9.04643 23 12.0214C22.9404 14.8143 20.6166 17 17.8161 17ZM5.60104 17C2.50259 17 0 14.3286 0 10.3214C0 6.07143 2.97927 1.51786 7.86529 0H9.95078C6.25648 2.00357 5.18394 5.28214 5.18394 6.98214C5.30311 7.16429 5.18394 6.92143 5.18394 6.92143C8.52073 6.73929 10.785 9.04643 10.785 12.0214C10.7254 14.8143 8.40156 17 5.60104 17Z"
+									fill="#202020"></path>
+							</svg></div>
+						<!-- <h5 class="fw-bold">Arrived as strangers, left as friends</h5> -->
+						<p>"I loved the night sky discussions and the sense of
+							community. I saw some satellites and the ISS moving. What an experience. TAP made me
+							realize how small actions can make a big difference in preserving nature."</p>
+						<div class="user-info">
+							<img src="images/gallery-1-1.jpg" alt="Nana">
+							<div>
+								<strong>Tanya</strong><br>
+								<small class="text-muted">Indore</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="main-footer main-footer--three">
+			<div class="main-footer__middle">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="200ms">
+							<div class="footer-widget footer-widget--about">
+								<a href="index.html" class="footer-widget__logo">
+									<img src="images/Bighornwhite.png" width="240" alt="">
+								</a>
+								<p class="footer-widget__text">At Bighorn, we’re not just trekking — we’re building
+									India’s most fun and sustainable outdoor community.</p>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="600ms">
+							<div class="footer-widget footer-widget--links-two">
+								<h2 class="footer-widget__title">Quick Links</h2>
+								<ul class="list-unstyled footer-widget__links">
+									<li><i class="fas fa-angle-double-right"></i><a href="index.html">Home
+										</a></li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="activities.html">Activities</a>
+									</li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="sustainability.html">Sustainability</a></li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="https://wa.me/919211776111?text=I'm%20interested%20in%20booking%20a%20trek%20with%20Bighorn!">Book
+											Now</a>
+									</li>
+									<li><i class="fas fa-angle-double-right"></i><a href="#">Blogs</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="600ms">
+							<div class="footer-widget footer-widget--links-three">
+								<h2 class="footer-widget__title">Explore our Treks</h2>
+								<ul class="list-unstyled footer-widget__links">
+									<li><i class="fas fa-angle-double-right"></i><a href="hampta-pass-trek.html">Hampta
+											Pass
+											Trek</a>
+									</li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="chopta-chandrashila-trek.html">Chopta Chandrashila
+											Trek</a>
+									</li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="valley-of-flowers-trek.html">Valley of Flowers
+											Trek
+										</a></li>
+									<li><i class="fas fa-angle-double-right"></i><a href="triund-trek.html">Triund
+											Trek
+										</a></li>
+									<li><i class="fas fa-angle-double-right"></i><a href="rudranath-trek.html">Rudranath
+											Trek
+										</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="800ms">
+							<div class="footer-widget footer-widget--contact">
+								<h2 class="footer-widget__title">Contact Us</h2>
+								<ul class="list-unstyled footer-widget__contact">
+									<li>
+										<div class="footer-widget__contact__item">
+											<div class="icon">
+												<svg width="24" height="24" viewBox="0 0 28 28" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_0_72)">
+														<path
+															d="M24.146 7.33663C23.1478 4.1116 20.5548 1.49726 17.3789 0.513705C13.997 -0.533616 10.4712 0.0349156 7.70579 2.0735C6.38071 3.05027 5.28117 4.33866 4.5261 5.7992C3.7457 7.30874 3.33325 9.0082 3.33325 10.714C3.33325 13.0408 4.06929 15.252 5.46185 17.1086L14 27.9995L22.5275 17.1225L22.5382 17.1086C24.6221 14.33 25.2082 10.7682 24.146 7.33663ZM21.2304 16.1173L14 25.3407L6.76954 16.1173C5.59513 14.5483 4.97431 12.68 4.97431 10.714C4.97431 7.84106 6.35944 5.10477 8.67956 3.39448C11.0209 1.66849 14.0148 1.18992 16.8935 2.08132C19.5596 2.90699 21.7379 5.10663 22.5784 7.82181C23.4823 10.7422 22.9909 13.7654 21.2304 16.1173Z"
+															fill="#EB662B"></path>
+														<path
+															d="M14 4.9707C10.8329 4.9707 8.25635 7.54731 8.25635 10.7143C8.25635 13.8813 10.8329 16.4579 14 16.4579C17.167 16.4579 19.7436 13.8813 19.7436 10.7143C19.7436 7.54731 17.167 4.9707 14 4.9707ZM14 14.8169C11.7378 14.8169 9.89735 12.9765 9.89735 10.7143C9.89735 8.45216 11.7378 6.61171 14 6.61171C16.2622 6.61171 18.1026 8.45211 18.1026 10.7143C18.1026 12.9765 16.2621 14.8169 14 14.8169Z"
+															fill="#EB662B"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_0_72">
+															<rect width="28" height="28" fill="white"
+																transform="translate(-0.000976562)"></rect>
+														</clipPath>
+													</defs>
+												</svg>
+
+											</div>
+											<div class="footer-widget__contact__text">
+												<p class="footer-widget__contact__location">
+													Registered Address: A-102, Meet Nagar, Shahdara, Delhi - 110094
+												</p>
+
+											</div>
+										</div>
+										<div class="footer-widget__contact__item">
+											<div class="icon">
+												<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M12 2C7.589 2 4 5.589 4 10C4 14.25 8.5 19.25 11.12 21.89C11.604 22.37 12.396 22.37 12.88 21.89C15.5 19.25 20 14.25 20 10C20 5.589 16.411 2 12 2Z"
+														fill="#EB662B" />
+													<circle cx="12" cy="10" r="3" fill="white" />
+													<circle cx="12" cy="10" r="1.5" fill="#EB662B" />
+												</svg>
+											</div>
+											<div class="footer-widget__contact__text">
+
+												<p class="footer-widget__contact__location">
+													Meeting Address: Cafe Roastique, G3, Ozone Apartment Rd, Hazipur,
+													Sector 104, Noida, Uttar Pradesh
+												</p>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="footer-widget__contact__item">
+											<div class="icon">
+												<i class="icon-phone-call-2"></i>
+											</div>
+											<div class="footer-widget__contact__text">
+												<a href="tel:+91-92117-76111"
+													class="footer-widget__contact__call">+91-92117-76111</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<div class="main-footer__social">
+									<a href="https://www.facebook.com/share/16ZbAHDqjz/?mibextid=qi2Omg"><i
+											class="fab fa-facebook-f" aria-hidden="true"></i><span
+											class="sr-only">Facebook</span></a>
+									<a href="https://linkedin.com"><i class="fa-brands fa-pinterest"
+											aria-hidden="true"></i><span class="sr-only">Pinterest</span></a>
+									<a href="https://www.instagram.com/bighorn.india/"><i class="fab fa-instagram"
+											aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-footer__bottom  wow fadeInUp" data-wow-delay="300ms">
+				<div class="main-footer__bottom__inner">
+					<p class="main-footer__copyright">Copyright © <span class="dynamic-year"></span> Bighorn | Designed
+						and Developed by <a href="https://creativesoul.in" target="_blank"
+							style="color: inherit; text-decoration: underline;">creativesoul.in</a></p>
+				</div>
+			</div>
+		</footer>
+	</div><!-- /.page-wrapper -->
+
+
+	<div class="mobile-nav__wrapper">
+
+		<!-- /.mobile-nav__overlay -->
+		<div class="mobile-nav__content">
+			<span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+			<div class="logo-box">
+				<a href="index.html" aria-label="logo image"><img src="assets/logo.png" width="145" alt="bighorn"></a>
+			</div>
+			<!-- /.logo-box -->
+			<div class="mobile-nav__container"></div>
+			<!-- /.mobile-nav__container -->
+			<a href="contact.html"
+				style="background-color: #FF6600; color: white; padding: 12px; border-radius: 5px; text-decoration: none; display: block; width: 100%; text-align: center; margin-top: 15px;">
+				<span>Contact Us</span>
+			</a>
+
+			<ul class="mobile-nav__contact list-unstyled">
+				<li>
+					<i class="fa fa-envelope"></i>
+					<a href="mailto:needhelp@bighorn.com">needhelp@bighorn.com</a>
+				</li>
+				<li>
+					<i class="fa fa-phone-alt"></i>
+					<a href="tel:666-888-0000">666 888 0000</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /.mobile-nav__content -->
+	</div>
+
+	<!-- /.mobile-nav__wrapper -->
+
+
+
+	<!-- for image open on full gallery  -->
+	<script>
+		const galleryLinks = document.querySelectorAll('.gallery-link');
+		const lightbox = document.getElementById('lightbox');
+		const lightboxImage = document.getElementById('lightboxImage');
+		const lightboxTitle = document.getElementById('lightboxTitle');
+		const lightboxDownload = document.getElementById('lightboxDownload');
+
+		galleryLinks.forEach(link => {
+			link.addEventListener('click', function (e) {
+				e.preventDefault();
+				const imgSrc = this.getAttribute('href');
+				const imgTitle = this.getAttribute('data-title');
+				lightboxImage.src = imgSrc;
+				lightboxTitle.textContent = imgTitle;
+				lightboxDownload.href = imgSrc;
+				lightbox.style.display = 'flex';
+			});
+		});
+
+		function closeLightbox() {
+			lightbox.style.display = 'none';
+		}
+
+		// Optional: Close on ESC key
+		document.addEventListener('keydown', function (e) {
+			if (e.key === "Escape") {
+				closeLightbox();
+			}
+		});
+	</script>
+	<!-- for image open on full gallery  -->
+
+
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
+	<script src="js/jarallax.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.appear.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/wNumb.min.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script src="js/daterangepicker.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/imagesloaded.min.js"></script>
+	<script src="js/isotope.js"></script>
+	<script src="js/simpleParallax.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/countdown.min.js"></script>
+	<!-- gsap js -->
+	<script src="js/gsap.js"></script>
+	<script src="js/scrolltrigger.min.js"></script>
+	<script src="js/splittext.min.js"></script>
+	<script src="js/bighorn-split.js"></script>
+	<!-- template js -->
+	<script src="js/bighorn.js"></script>
+
+
+</body>
+
+</html>
