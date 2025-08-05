@@ -338,6 +338,349 @@
 			}
 		}
 	</style>
+	 <!-- mobile section css -->
+
+
+	 
+	 
+	 <!-- sidebar style 2 -->
+	<style>
+		/* sidebar style2 */
+		.fancy-sidebar {
+			background: linear-gradient(135deg, #fff4ec, #fffdf9);
+			/* light orange background */
+			padding: 25px;
+			border-radius: 15px;
+			box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+			font-family: 'Poppins', sans-serif;
+			transition: 0.3s ease;
+			border: 1px solid #ffd5b8;
+		}
+
+		/* Trek Fee Title */
+		.fancy-sidebar h2 {
+			font-size: 26px;
+			margin-bottom: 20px;
+			color: #ff6600;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+
+		@media (max-width: 768px) {
+			.hide-on-phone {
+				display: none;
+			}
+		}
+
+		/* Trek Price */
+		.price {
+			font-size: 32px;
+			color: #ff6600;
+			font-weight: 700;
+			margin-bottom: 20px;
+			border-left: 5px solid #ff6600;
+			padding-left: 15px;
+		}
+
+		.price span.person {
+			font-size: 16px;
+			/* smaller size */
+			color: #333;
+			font-weight: 600;
+		}
+
+
+		/* Delhi & Meeting Point Buttons */
+		.price-buttons {
+			display: flex;
+			gap: 15px;
+			flex-wrap: wrap;
+			padding: 0;
+			list-style: none;
+			margin-bottom: 20px;
+		}
+
+		.price-buttons button {
+			background: linear-gradient(to right, #ff6600, #ff8533);
+			border: none;
+			padding: 10px 18px;
+			border-radius: 8px;
+			color: white;
+			font-weight: 500;
+			cursor: pointer;
+			font-size: 14px;
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			transition: all 0.3s ease-in-out;
+			box-shadow: 0 4px 12px rgba(255, 102, 0, 0.2);
+		}
+
+		.price-buttons button:hover {
+			transform: translateY(-2px) scale(1.02);
+			box-shadow: 0 6px 16px rgba(255, 102, 0, 0.3);
+		}
+
+		/* Benefits list */
+		.benefits p {
+			margin: 10px 0;
+			font-size: 15px;
+			color: #444;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+
+		/* Links (Inclusions, Exclusions) */
+		.links {
+			margin-top: 25px;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		.links a {
+			text-decoration: none;
+			color: #ff6600;
+			font-weight: 500;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			font-size: 15px;
+			transition: all 0.3s ease;
+		}
+
+		.links a:hover {
+			transform: translateX(5px);
+			color: #e65100;
+		}
+
+		/* Register Section */
+		.register-section {
+			margin-top: 30px;
+			padding-top: 15px;
+			border-top: 1px solid #ffc299;
+		}
+
+		.register-section strong {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			font-size: 16px;
+			color: #ff6600;
+			margin-bottom: 12px;
+		}
+
+		/* Rent It Now Button */
+		.month-header a {
+			display: inline-block;
+			padding: 10px 20px;
+			background: linear-gradient(to right, #00a6ff, #33beff);
+			color: white;
+			border-radius: 10px;
+			text-decoration: none;
+			font-weight: 600;
+			transition: 0.3s ease;
+		}
+
+		.month-header a:hover {
+			background: #e65100;
+			box-shadow: 0 4px 10px rgba(255, 102, 0, 0.4);
+		}
+
+		/* Price full text */
+		.price {
+			font-size: 32px;
+			font-weight: 700;
+			margin-bottom: 20px;
+			border-left: 5px solid #ff6600;
+			padding-left: 15px;
+			color: #ff6600;
+			/* Keep ₹8500 orange */
+		}
+
+		/* Only make "/ person" black via span */
+		.price span.person {
+			color: #333;
+		}
+
+		/* Buttons default look: white bg, orange text/border */
+		.price-buttons button {
+			background: #fff;
+			color: #ff6600;
+			border: 2px solid #ff6600;
+			padding: 10px 18px;
+			border-radius: 8px;
+			font-weight: 500;
+			cursor: pointer;
+			font-size: 14px;
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			transition: all 0.3s ease-in-out;
+			box-shadow: 0 4px 12px rgba(255, 102, 0, 0.05);
+		}
+
+		/* Hover effect */
+		.price-buttons button:hover {
+			transform: translateY(-2px) scale(1.02);
+			box-shadow: 0 6px 16px rgba(255, 102, 0, 0.2);
+		}
+
+		/* Active button: filled orange with white text */
+		.price-buttons button.active {
+			background: linear-gradient(to right, #ff6600, #ff8533);
+			color: #fff;
+			border: 2px solid transparent;
+
+		}
+
+
+		/* Make /person text black */
+		/* .price {
+	color: #333;  
+}
+ 
+.price-buttons button.active {
+	background: #fff;
+	color: #ff6600;
+	border: 2px solid #ff6600;
+	box-shadow: 0 0 10px rgba(255, 102, 0, 0.2);
+	transform: scale(1.02);
+} */
+
+
+		/* sidebar style2 */
+	</style>
+	<!-- /* sidebar style2 */ -->
+
+	<!-- mobile section css -->
+	<style>
+		/* mobile view section  */
+		.mobile-trek-fixed {
+			display: none;
+			background: linear-gradient(to right, #fff4ec, #fff9f4);
+			padding: 12px 10px;
+			font-family: 'Poppins', sans-serif;
+			border-bottom: 2px solid #ff6600;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			row-gap: 12px;
+			margin-top: -7rem;
+			margin-bottom: -1rem;
+		}
+
+		/* Each info box takes 31–32% width */
+		.mobile-trek-fixed .info {
+			width: 31.5%;
+			height: 10vh;
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			font-size: 13px;
+		}
+
+		.mobile-trek-fixed .info i {
+			font-size: 18px;
+			color: #ff6600;
+			min-width: 20px;
+		}
+
+		.mobile-trek-fixed .text span {
+			font-size: 11px;
+			color: #999;
+			display: block;
+			line-height: 1.2;
+		}
+
+		.mobile-trek-fixed .text strong {
+			font-size: 13px;
+			font-weight: 600;
+			color: #333;
+			white-space: nowrap;
+		}
+
+		/* NEW: Custom styles for top trek fee and travel mode boxes */
+		.mobile-trek-fixed .fee-box,
+		.mobile-trek-fixed .option-box {
+			background-color: white;
+			border-radius: 8px;
+			box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+			padding: 6px;
+		}
+
+		/* Option buttons style only */
+		.mobile-trek-fixed .option-box {
+			background-color: white;
+			border-radius: 8px;
+			box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+			padding: 6px;
+			cursor: pointer;
+		}
+
+
+		.mobile-trek-fixed .option-box {
+			cursor: pointer;
+		}
+
+		/* Show only on mobile */
+		@media (max-width: 768px) {
+			.mobile-trek-fixed {
+				display: flex;
+			}
+		}
+
+
+
+		/* Top row with 3 columns side by side */
+		.mobile-trek-fixed .same-line {
+			display: flex;
+			width: 100%;
+			gap: 10px;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+		}
+
+		/* Smaller, black "/ person" */
+		#trek-fee .person {
+			color: #333;
+			font-size: 11px;
+			font-weight: 500;
+			margin-left: 4px;
+		}
+
+		/* Default style for option buttons */
+		.mobile-trek-fixed .option-box {
+			background-color: #fff;
+			color: #ff6600;
+			border: 2px solid #ff6600;
+			border-radius: 8px;
+			box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+			padding: 6px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+
+		/* Active selected style */
+		.mobile-trek-fixed .option-box.active {
+			background: linear-gradient(to right, #ff6600, #ff8533);
+			color: white;
+			border: 2px solid transparent;
+			transform: scale(1.02);
+		}
+
+		.option-box.active strong,
+.option-box.active i,
+.option-box.active span {
+  color: white;
+}
+
+
+
+
+		/* mobile view section  */
+	</style>
 </head>
 
 <body class="custom-cursor">
@@ -408,6 +751,88 @@
 			<div class="container">
 				<div class="row gutter-y-60">
 					<div class="col-lg-8 wow fadeInUp" data-wow-delay="100ms">
+						<!-- mobile section only -->
+
+						<div class="mobile-trek-fixed">
+							<!-- Trek Fee - now just plain text, no box -->
+							<div class="info-row same-line">
+								<div class="info trek-fee-text" style="width: 33%;">
+									<i class=" fas fa-wallet"></i>
+									<div class="text">
+										<span>Trek Fee</span>
+										<strong id="trek-fee">₹10,500 <span class="person">/ person</span></strong>
+									</div>
+								</div>
+
+								<div class="info option-box" id="delhi2-btn" onclick="updateTrekFee('delhi')"
+									style="width: 33%; ">
+									<i class="fas fa-bus"></i>
+									<div class="text">
+										<span>From</span>
+										<strong class="wh">Delhi</strong>
+									</div>
+								</div>
+
+								<div class="info option-box" id="dehradun2-btn" onclick="updateTrekFee('meeting')"
+									style="width: 33%;">
+									<i class="fas fa-map-marker-alt"></i>
+									<div class="text">
+										<span>From</span>
+										<strong>Rishikesh</strong>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- ✅ END INSERTED -->
+
+
+							<!-- Existing Info Rows -->
+							<div class="info">
+								<i class="fas fa-clock"></i>
+								<div class="text">
+									<span>Duration</span>
+									<strong>6 Days</strong>
+								</div>
+							</div>
+							<div class="info">
+								<i class="fas fa-mountain-sun"></i>
+								<div class="text">
+									<span>Altitude</span>
+									<strong>14399 Ft</strong>
+								</div>
+							</div>
+							<div class="info">
+								<i class="fas fa-person-hiking"></i>
+								<div class="text">
+									<span>Difficulty</span>
+									<strong>Easy</strong>
+								</div>
+							</div>
+							<div class="info">
+								<i class="fas fa-route"></i>
+								<div class="text">
+									<span>Distance</span>
+									<strong>38 Km</strong>
+								</div>
+							</div>
+							<div class="info">
+								<i class="fas fa-map-pin"></i>
+								<div class="text">
+									<span>Pickup</span>
+									<strong>Rishikesh</strong>
+								</div>
+							</div>
+							<div class="info">
+								<i class="fas fa-calendar-alt"></i>
+								<div class="text">
+									<span>Best Time</span>
+									<strong>Jun–Sep</strong>
+								</div>
+							</div>
+						</div>
+						<!-- mobile section only -->
+						<br>
 						<div id="carouselExampleIndicators" class="carousel slide mb-5">
 							<div class="carousel-indicators">
 								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -639,7 +1064,7 @@
 									</div>
 								</div><!-- /.accordian-item -->
 							</div>
-							<h3 class="tours-details__title mt35" id="inclusion">inclusion</h3>
+							<h3 class="tours-details__title mt35" id="inclusion">Inclusion</h3>
 							<p class="tours-details__text">
 							<ul>
 								<li><b>Accommodation:</b> Stay at a guesthouse in Lohajung village and in alpine tents
@@ -832,47 +1257,57 @@
 						<!-- /.accordian-item -->
 
 					</div>
-					<div class="col-lg-4 wow fadeInRight mb-5" data-wow-delay="200ms">
+					<div class="col-lg-4 wow hide-on-phone fadeInRight mb-5" data-wow-delay="200ms">
 						<div class="tours-details__booking">
-							<div class="trek-card">
-								<h2>Trek Fee</h2>
-								<div class="price" id="trek-price">10,500/-</div>
+							<div class="trek-card fancy-sidebar">
+								<h2><i class="fas fa-mountain-sun"></i> Trek Fee</h2>
+								<div class="price" id="trek-price">₹10,500 <span
+										style="color: black; font-size: 16px; font-weight:600;">/ person</span> </div>
 
 								<div class="sub-text">
-									<ul
-										style="margin-left: -30px; display: flex; align-items: center; justify-content: space-between; gap: 30px;">
-										<button onclick="updatePrice(10500)"
-											style="cursor: pointer; color: #ff6600; border-radius: 5px;  ">Cost From
-											delhi</button>
-										<button onclick="updatePrice(9000)"
-											style="cursor: pointer; color: #ff6600; border-radius: 5px;">Cost from
-											meeting Point</button>
-
+									<ul class="price-buttons">
+										<li>
+											<button type="button" id="delhi-btn"
+												onclick="updatePrice('₹10,500 / person', 'delhi')">
+												<i class="fas fa-route"></i> From Delhi
+											</button>
+										</li>
+										<li>
+											<button type="button" id="dehradun-btn"
+												onclick="updatePrice('₹9,000 / person', 'dehradun')">
+												<i class="fas fa-person-hiking"></i> From Rishikesh
+											</button>
+										</li>
 									</ul>
-									+ Full Sustainable Kit<br>
-									+ BigHorn Trekking Passport<br>
-									+ 20% Discount ON Cafe Roastique <br>
-									+ 1 Year TOE Membership <br>
-									+ Certificate Of Appreciation <br>
-									+ Live Potraits
+
+
+
+									<div class="benefits">
+										<p><i class="fas fa-tree"></i> Full Sustainable Kit</p>
+										<p><i class="fas fa-passport"></i> BigHorn Trekking Passport</p>
+										<p><i class="fas fa-mug-hot"></i> 20% Discount ON Cafe Roastique</p>
+										<p><i class="fas fa-users"></i> 1 Year TOE Membership</p>
+										<p><i class="fas fa-medal"></i> Certificate Of Appreciation</p>
+										<p><i class="fas fa-camera"></i> Live Portraits</p>
+									</div>
 								</div>
 
-								<!-- sidebar clickable link  -->
 								<div class="links">
-									<a href="#inclusion">Inclusions </a>
-									<a href="#exclusion">Exclusions</a>
+									<a href="#inclusion"><i class="fas fa-circle-plus"></i> Inclusions</a>
+									<a href="#exclusion"><i class="fas fa-circle-minus"></i> Exclusions</a>
 								</div>
 
 								<div class="register-section">
-									<strong>Need A Gear</strong>
+									<strong><i class="fas fa-backpack"></i> Need A Gear</strong>
 									<div class="month-section">
 										<div class="month-header">
-											<a href="rent-gear.html">Rent It Now</a>
+											<a href="rent-gear.html"><i class="fas fa-handshake-angle"></i> Rent It
+												Now</a>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div><!-- /.tours-details__booking -->
+						</div>
 					</div>
 					<div class="col-lg-8 wow" data-wow-delay="200ms">
 						<h3 class="tours-details__title">See Map</h3>
@@ -946,155 +1381,155 @@
 					class="btn btn-book-now" target="_blank">Book Now</a>
 			</div>
 		</div>
-		  <footer class="main-footer main-footer--three">
-            <div class="main-footer__middle">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="200ms">
-                            <div class="footer-widget footer-widget--about">
-                                <a href="index.html" class="footer-widget__logo">
-                                    <img src="images/Bighornwhite.png" width="240" alt="">
-                                </a>
-                                <p class="footer-widget__text">At Bighorn, we’re not just trekking — we’re building
-                                    India’s most fun and sustainable outdoor community.</p>
-                            </div>
-                        </div>
+		<footer class="main-footer main-footer--three">
+			<div class="main-footer__middle">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="200ms">
+							<div class="footer-widget footer-widget--about">
+								<a href="index.html" class="footer-widget__logo">
+									<img src="images/Bighornwhite.png" width="240" alt="">
+								</a>
+								<p class="footer-widget__text">At Bighorn, we’re not just trekking — we’re building
+									India’s most fun and sustainable outdoor community.</p>
+							</div>
+						</div>
 
-                        <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="600ms">
-                            <div class="footer-widget footer-widget--links-two">
-                                <h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__links">
-                                    <li><i class="fas fa-angle-double-right"></i><a href="index.html">Home
-                                        </a></li>
-                                    <li><i class="fas fa-angle-double-right"></i><a
-                                            href="activities.html">Activities</a>
-                                    </li>
-                                    <li><i class="fas fa-angle-double-right"></i><a
-                                            href="sustainability.html">Sustainability</a></li>
-                                    <li><i class="fas fa-angle-double-right"></i><a
-                                            href="https://wa.me/919211776111?text=I'm%20interested%20in%20booking%20a%20trek%20with%20Bighorn!">Book
-                                            Now</a>
-                                    </li>
-                                    <li><i class="fas fa-angle-double-right"></i><a href="#">Blogs</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+						<div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="600ms">
+							<div class="footer-widget footer-widget--links-two">
+								<h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
+								<ul class="list-unstyled footer-widget__links">
+									<li><i class="fas fa-angle-double-right"></i><a href="index.html">Home
+										</a></li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="activities.html">Activities</a>
+									</li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="sustainability.html">Sustainability</a></li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="https://wa.me/919211776111?text=I'm%20interested%20in%20booking%20a%20trek%20with%20Bighorn!">Book
+											Now</a>
+									</li>
+									<li><i class="fas fa-angle-double-right"></i><a href="#">Blogs</a>
+									</li>
+								</ul>
+							</div>
+						</div>
 
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="600ms">
-                            <div class="footer-widget footer-widget--links-three">
-                                <h2 class="footer-widget__title">Explore our Treks</h2><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__links">
-                                    <li><i class="fas fa-angle-double-right"></i><a href="hampta-pass-trek.html">Hampta
-                                            Pass
-                                            Trek</a>
-                                    </li>
-                                    <li><i class="fas fa-angle-double-right"></i><a
-                                            href="chopta-chandrashila-trek.html">Chopta Chandrashila
-                                            Trek</a>
-                                    </li>
-                                    <li><i class="fas fa-angle-double-right"></i><a
-                                            href="valley-of-flowers-trek.html">Valley of Flowers
-                                            Trek
-                                        </a></li>
-                                    <li><i class="fas fa-angle-double-right"></i><a href="triund-trek.html">Triund
-                                            Trek
-                                        </a></li>
-                                    <li><i class="fas fa-angle-double-right"></i><a href="rudranath-trek.html">Rudranath
-                                            Trek
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="800ms">
-                            <div class="footer-widget footer-widget--contact">
-                                <h2 class="footer-widget__title">Contact Us</h2><!-- /.footer-widget__title -->
-                                <ul class="list-unstyled footer-widget__contact">
-                                    <li>
-                                        <div class="footer-widget__contact__item">
-                                            <div class="icon">
-                                                <svg width="24" height="24" viewBox="0 0 28 28" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <g clip-path="url(#clip0_0_72)">
-                                                        <path
-                                                            d="M24.146 7.33663C23.1478 4.1116 20.5548 1.49726 17.3789 0.513705C13.997 -0.533616 10.4712 0.0349156 7.70579 2.0735C6.38071 3.05027 5.28117 4.33866 4.5261 5.7992C3.7457 7.30874 3.33325 9.0082 3.33325 10.714C3.33325 13.0408 4.06929 15.252 5.46185 17.1086L14 27.9995L22.5275 17.1225L22.5382 17.1086C24.6221 14.33 25.2082 10.7682 24.146 7.33663ZM21.2304 16.1173L14 25.3407L6.76954 16.1173C5.59513 14.5483 4.97431 12.68 4.97431 10.714C4.97431 7.84106 6.35944 5.10477 8.67956 3.39448C11.0209 1.66849 14.0148 1.18992 16.8935 2.08132C19.5596 2.90699 21.7379 5.10663 22.5784 7.82181C23.4823 10.7422 22.9909 13.7654 21.2304 16.1173Z"
-                                                            fill="#EB662B"></path>
-                                                        <path
-                                                            d="M14 4.9707C10.8329 4.9707 8.25635 7.54731 8.25635 10.7143C8.25635 13.8813 10.8329 16.4579 14 16.4579C17.167 16.4579 19.7436 13.8813 19.7436 10.7143C19.7436 7.54731 17.167 4.9707 14 4.9707ZM14 14.8169C11.7378 14.8169 9.89735 12.9765 9.89735 10.7143C9.89735 8.45216 11.7378 6.61171 14 6.61171C16.2622 6.61171 18.1026 8.45211 18.1026 10.7143C18.1026 12.9765 16.2621 14.8169 14 14.8169Z"
-                                                            fill="#EB662B"></path>
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_0_72">
-                                                            <rect width="28" height="28" fill="white"
-                                                                transform="translate(-0.000976562)"></rect>
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg>
+						<div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="600ms">
+							<div class="footer-widget footer-widget--links-three">
+								<h2 class="footer-widget__title">Explore our Treks</h2><!-- /.footer-widget__title -->
+								<ul class="list-unstyled footer-widget__links">
+									<li><i class="fas fa-angle-double-right"></i><a href="hampta-pass-trek.html">Hampta
+											Pass
+											Trek</a>
+									</li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="chopta-chandrashila-trek.html">Chopta Chandrashila
+											Trek</a>
+									</li>
+									<li><i class="fas fa-angle-double-right"></i><a
+											href="valley-of-flowers-trek.html">Valley of Flowers
+											Trek
+										</a></li>
+									<li><i class="fas fa-angle-double-right"></i><a href="triund-trek.html">Triund
+											Trek
+										</a></li>
+									<li><i class="fas fa-angle-double-right"></i><a href="rudranath-trek.html">Rudranath
+											Trek
+										</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="800ms">
+							<div class="footer-widget footer-widget--contact">
+								<h2 class="footer-widget__title">Contact Us</h2><!-- /.footer-widget__title -->
+								<ul class="list-unstyled footer-widget__contact">
+									<li>
+										<div class="footer-widget__contact__item">
+											<div class="icon">
+												<svg width="24" height="24" viewBox="0 0 28 28" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_0_72)">
+														<path
+															d="M24.146 7.33663C23.1478 4.1116 20.5548 1.49726 17.3789 0.513705C13.997 -0.533616 10.4712 0.0349156 7.70579 2.0735C6.38071 3.05027 5.28117 4.33866 4.5261 5.7992C3.7457 7.30874 3.33325 9.0082 3.33325 10.714C3.33325 13.0408 4.06929 15.252 5.46185 17.1086L14 27.9995L22.5275 17.1225L22.5382 17.1086C24.6221 14.33 25.2082 10.7682 24.146 7.33663ZM21.2304 16.1173L14 25.3407L6.76954 16.1173C5.59513 14.5483 4.97431 12.68 4.97431 10.714C4.97431 7.84106 6.35944 5.10477 8.67956 3.39448C11.0209 1.66849 14.0148 1.18992 16.8935 2.08132C19.5596 2.90699 21.7379 5.10663 22.5784 7.82181C23.4823 10.7422 22.9909 13.7654 21.2304 16.1173Z"
+															fill="#EB662B"></path>
+														<path
+															d="M14 4.9707C10.8329 4.9707 8.25635 7.54731 8.25635 10.7143C8.25635 13.8813 10.8329 16.4579 14 16.4579C17.167 16.4579 19.7436 13.8813 19.7436 10.7143C19.7436 7.54731 17.167 4.9707 14 4.9707ZM14 14.8169C11.7378 14.8169 9.89735 12.9765 9.89735 10.7143C9.89735 8.45216 11.7378 6.61171 14 6.61171C16.2622 6.61171 18.1026 8.45211 18.1026 10.7143C18.1026 12.9765 16.2621 14.8169 14 14.8169Z"
+															fill="#EB662B"></path>
+													</g>
+													<defs>
+														<clipPath id="clip0_0_72">
+															<rect width="28" height="28" fill="white"
+																transform="translate(-0.000976562)"></rect>
+														</clipPath>
+													</defs>
+												</svg>
 
-                                            </div><!-- /.icon -->
-                                            <div class="footer-widget__contact__text">
-                                                <p class="footer-widget__contact__location">
-                                                    Registered Address: A-102, Meet Nagar, Shahdara, Delhi - 110094
-                                                </p>
+											</div><!-- /.icon -->
+											<div class="footer-widget__contact__text">
+												<p class="footer-widget__contact__location">
+													Registered Address: A-102, Meet Nagar, Shahdara, Delhi - 110094
+												</p>
 
-                                            </div>
-                                            <!-- /.footer-widget__contact__text -->
-                                        </div>
-                                        <div class="footer-widget__contact__item">
-                                            <div class="icon">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M12 2C7.589 2 4 5.589 4 10C4 14.25 8.5 19.25 11.12 21.89C11.604 22.37 12.396 22.37 12.88 21.89C15.5 19.25 20 14.25 20 10C20 5.589 16.411 2 12 2Z"
-                                                        fill="#EB662B" />
-                                                    <circle cx="12" cy="10" r="3" fill="white" />
-                                                    <circle cx="12" cy="10" r="1.5" fill="#EB662B" />
-                                                </svg>
-                                            </div><!-- /.icon -->
-                                            <div class="footer-widget__contact__text">
+											</div>
+											<!-- /.footer-widget__contact__text -->
+										</div>
+										<div class="footer-widget__contact__item">
+											<div class="icon">
+												<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M12 2C7.589 2 4 5.589 4 10C4 14.25 8.5 19.25 11.12 21.89C11.604 22.37 12.396 22.37 12.88 21.89C15.5 19.25 20 14.25 20 10C20 5.589 16.411 2 12 2Z"
+														fill="#EB662B" />
+													<circle cx="12" cy="10" r="3" fill="white" />
+													<circle cx="12" cy="10" r="1.5" fill="#EB662B" />
+												</svg>
+											</div><!-- /.icon -->
+											<div class="footer-widget__contact__text">
 
-                                                <p class="footer-widget__contact__location">
-                                                    Meeting Address: Cafe Roastique, G3, Ozone Apartment Rd, Hazipur,
-                                                    Sector 104, Noida, Uttar Pradesh
-                                                </p>
-                                            </div>
-                                            <!-- /.footer-widget__contact__text -->
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__contact__item">
-                                            <div class="icon">
-                                                <i class="icon-phone-call-2"></i>
-                                            </div><!-- /.icon -->
-                                            <div class="footer-widget__contact__text">
-                                                <a href="tel:+91-92117-76111"
-                                                    class="footer-widget__contact__call">+91-92117-76111</a><!-- /.footer-widget__contact__location -->
-                                            </div><!-- /.footer-widget__contact__text -->
-                                        </div><!-- /.footer-widget__contact__item -->
-                                    </li>
-                                </ul><!-- /.list-unstyled footer-widget__links -->
-                                <div class="main-footer__social">
-                                    <a href="https://www.facebook.com/share/16ZbAHDqjz/?mibextid=qi2Omg"><i
-                                            class="fab fa-facebook-f" aria-hidden="true"></i><span
-                                            class="sr-only">Facebook</span></a>
-                                    <a href="https://linkedin.com"><i class="fa-brands fa-pinterest"
-                                            aria-hidden="true"></i><span class="sr-only">Pinterest</span></a>
-                                    <a href="https://www.instagram.com/bighorn.india/"><i class="fab fa-instagram"
-                                            aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
-                                </div>
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-md-6 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </div><!-- /.main-footer__middle -->
-            <div class="main-footer__bottom  wow fadeInUp" data-wow-delay="300ms">
-                <div class="main-footer__bottom__inner">
-                    <p class="main-footer__copyright">Copyright © <span class="dynamic-year"></span> Bighorn | Designed
-                        and Developed by <a href="https://creativesoul.in" target="_blank"
-                            style="color: inherit; text-decoration: underline;">creativesoul.in</a></p>
-                </div><!-- /.main-footer__inner -->
-            </div><!-- /.main-footer__bottom -->
-        </footer>
+												<p class="footer-widget__contact__location">
+													Meeting Address: Cafe Roastique, G3, Ozone Apartment Rd, Hazipur,
+													Sector 104, Noida, Uttar Pradesh
+												</p>
+											</div>
+											<!-- /.footer-widget__contact__text -->
+										</div>
+									</li>
+									<li>
+										<div class="footer-widget__contact__item">
+											<div class="icon">
+												<i class="icon-phone-call-2"></i>
+											</div><!-- /.icon -->
+											<div class="footer-widget__contact__text">
+												<a href="tel:+91-92117-76111"
+													class="footer-widget__contact__call">+91-92117-76111</a><!-- /.footer-widget__contact__location -->
+											</div><!-- /.footer-widget__contact__text -->
+										</div><!-- /.footer-widget__contact__item -->
+									</li>
+								</ul><!-- /.list-unstyled footer-widget__links -->
+								<div class="main-footer__social">
+									<a href="https://www.facebook.com/share/16ZbAHDqjz/?mibextid=qi2Omg"><i
+											class="fab fa-facebook-f" aria-hidden="true"></i><span
+											class="sr-only">Facebook</span></a>
+									<a href="https://linkedin.com"><i class="fa-brands fa-pinterest"
+											aria-hidden="true"></i><span class="sr-only">Pinterest</span></a>
+									<a href="https://www.instagram.com/bighorn.india/"><i class="fab fa-instagram"
+											aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+								</div>
+							</div><!-- /.footer-widget -->
+						</div><!-- /.col-md-6 -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.main-footer__middle -->
+			<div class="main-footer__bottom  wow fadeInUp" data-wow-delay="300ms">
+				<div class="main-footer__bottom__inner">
+					<p class="main-footer__copyright">Copyright © <span class="dynamic-year"></span> Bighorn | Designed
+						and Developed by <a href="https://creativesoul.in" target="_blank"
+							style="color: inherit; text-decoration: underline;">creativesoul.in</a></p>
+				</div><!-- /.main-footer__inner -->
+			</div><!-- /.main-footer__bottom -->
+		</footer>
 	</div>
 
 	<div class="mobile-nav__wrapper">
@@ -1198,13 +1633,52 @@
 	</script>
 
 	<!-- sidebar price change  -->
-	<!-- JavaScript: Add this before closing </body> or inline -->
 	<script>
-		function updatePrice(amount) {
-			document.getElementById("trek-price").innerText = amount.toLocaleString() + "/-";
+		function updatePrice(amount, selected) {
+			const priceEl = document.getElementById("trek-price");
+			const [main, person] = amount.split(" / ");
+
+			// Show ₹8500 and /person separately
+			priceEl.innerHTML = `${main} <span class="person">/ ${person}</span>`;
+
+			// Active button switch
+			document.getElementById("delhi-btn").classList.remove("active");
+			document.getElementById("dehradun-btn").classList.remove("active");
+
+			if (selected === "delhi") {
+				document.getElementById("delhi-btn").classList.add("active");
+			} else if (selected === "dehradun") {
+				document.getElementById("dehradun-btn").classList.add("active");
+			}
 		}
 	</script>
 	<!-- sidebar price change  -->
+
+	<!-- mobile view sidebar -->
+	<script>
+		function updateTrekFee(option) {
+			const feeEl = document.getElementById('trek-fee');
+
+			// Set price and format
+			if (option === 'delhi') {
+				feeEl.innerHTML = '₹10,500 <span class="person">/ person</span>';
+			} else if (option === 'meeting') {
+				feeEl.innerHTML = '₹9,000 <span class="person">/ person</span>';
+			}
+
+			// Remove active from both
+			document.getElementById('delhi2-btn').classList.remove('active');
+			document.getElementById('dehradun2-btn').classList.remove('active');
+
+			// Add active to selected
+			if (option === 'delhi') {
+				document.getElementById('delhi2-btn').classList.add('active');
+			} else {
+				document.getElementById('dehradun2-btn').classList.add('active');
+			}
+		}
+	</script>
+	<!-- mobile view sidebar -->
 
 </body>
 
