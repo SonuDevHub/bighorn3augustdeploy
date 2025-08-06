@@ -105,6 +105,22 @@ body {
   /* background-color: #EFEAE3; */
 }
 
+/* Add this to your main CSS file or inside a <style> tag */
+html,
+body {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+  overflow: auto;
+}
+
+/* Chrome, Safari, Edge */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body.locked {
   overflow: hidden;
 }
@@ -14665,7 +14681,7 @@ html {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom:150px;
+  bottom: 150px;
   right: 10px;
   background-color: rgb(57, 137, 42);
   color: #FFF;
