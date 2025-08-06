@@ -14663,19 +14663,20 @@ html {
 /* whatsapp icon */
 .whats-appp {
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   bottom:150px;
   right: 10px;
   background-color: rgb(57, 137, 42);
   color: #FFF;
   border-radius: 50%;
   text-align: center;
-  font-size: 33px;
+  font-size: 35px;
   z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
 }
 
 a.whats-appp:hover,
