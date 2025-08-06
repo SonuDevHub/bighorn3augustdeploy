@@ -6732,6 +6732,7 @@ h6 {
     /* Slightly smaller radius on mobile */
   }
 }
+
 @media (max-width: 1200px) {
   .tours-one__item {
     height: 50vw;
@@ -6742,6 +6743,7 @@ h6 {
     /* Slightly smaller radius on mobile */
   }
 }
+
 @media (max-width: 700px) {
   .tours-one__item {
     height: 110vw;
@@ -14654,4 +14656,35 @@ html {
 /* Rotate icon down when open */
 .accrodion[open] .icon {
   transform: rotate(135deg);
+}
+
+
+
+/* whatsapp icon */
+.whats-appp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom:150px;
+  right: 10px;
+  background-color: rgb(57, 137, 42);
+  color: #FFF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 33px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.whats-appp:hover,
+a.whats-appp:focus,
+a.whats-appp:active {
+  color: #fff !important;
+  /* background: none !important; */
+  text-decoration: none !important;
+  transform: none !important;
+  filter: none !important;
+  outline: none !important;
 }
