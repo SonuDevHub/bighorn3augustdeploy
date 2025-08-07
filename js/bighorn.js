@@ -497,31 +497,6 @@
     }
   });
 
-  // window scroll event
-  // function stickyMenuUpScroll($targetMenu, $toggleClass) {
-  //   var lastScrollTop = 0;
-  //   window.addEventListener(
-  //     "scroll",
-  //     function () {
-  //       var st = window.pageYOffset || document.documentElement.scrollTop;
-  //       if (st > 500) {
-  //         if (st > lastScrollTop) {
-  //           // downscroll code
-  //           $targetMenu.removeClass($toggleClass);
-  //           // console.log("down");
-  //         } else {
-  //           // upscroll code
-  //           $targetMenu.addClass($toggleClass);
-  //           // console.log("up");
-  //         }
-  //       } else {
-  //         $targetMenu.removeClass($toggleClass);
-  //       }
-  //       lastScrollTop = st;
-  //     },
-  //     false
-  //   );
-  // }
   stickyMenuUpScroll($(".sticky-header--normal"), "active");
 
   let scrollTop = $('.scroll-to-top path');
